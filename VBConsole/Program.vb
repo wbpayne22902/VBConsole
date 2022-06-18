@@ -4,7 +4,7 @@ Module Program
     Sub Main(args As String())
         Console.Clear()
         Console.BackgroundColor = ConsoleColor.Blue
-        Console.WriteLine("Hello World! {0}", args(0))
+        Console.WriteLine("Hello World!")
         For x = 1 To 15
             Console.WriteLine($"Hello {x}")
         Next
